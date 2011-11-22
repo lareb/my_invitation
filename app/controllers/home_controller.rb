@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
-  before_filter :authenticate_user!
+  layout 'application'
   def index
-    render :text => "Welcome #{current_user.email}!"
+    render :text => "Welcome to myinvitation", :layout => true
   end
 
 end

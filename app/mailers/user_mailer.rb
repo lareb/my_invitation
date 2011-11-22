@@ -1,4 +1,4 @@
-class UserMailer < ActionMailer::Base
+class UserMailer < Devise::Mailer
   default :from => "no-reply@myinvitations.com"
 
   def welcome_email(user)

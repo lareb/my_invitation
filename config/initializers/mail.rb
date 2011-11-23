@@ -6,7 +6,7 @@ ActionMailer::Base.smtp_settings = {
   :domain             => 'gmail.com', #you can also use google.com
   :authentication     => :plain,
   :user_name          => 'lareb.indore@gmail.com',
-  :password           => 'xxxxxxxx'
+  :password           => 'sarfarosh'
 }
 
 ActionMailer::Base.default_url_options[:host] = "localhost:3000"

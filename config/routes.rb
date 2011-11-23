@@ -1,8 +1,8 @@
 MyInvitation::Application.routes.draw do
   
   root :to => "home#index"  
-  post "/users/sign_in"    => "sessions#create"
-  delete "/users/sign_out" => "sessions#destroy"
+  #post "/users/sign_in"    => "sessions#create"
+  #delete "/users/sign_out" => "sessions#destroy"
   devise_for :users
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -4,4 +4,7 @@ class HomeController < ApplicationController
     render :text => "Welcome #{current_user.email}!"
   end
 
+  def edit_profile
+    render :text => "yahoo "
+  end
 end

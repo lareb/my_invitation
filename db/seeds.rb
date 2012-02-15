@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
+
+invitations = Invitation.create([{ :type => 'Chicago', :is_active => 1 }, { :name => 'Copenhagen' }])

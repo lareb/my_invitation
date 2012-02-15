@@ -1,9 +1,9 @@
 MyInvitation::Application.routes.draw do
-  
-  root :to => "home#index"  
+  get "home/index"
+  devise_for :users, :controllers => {:sessions => 'sessions', :registrations => "registrations"}
+  root :to => 'home#index'
   #post "/users/sign_in"    => "sessions#create"
   #delete "/users/sign_out" => "sessions#destroy"
-  devise_for :users
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -59,5 +59,10 @@ MyInvitation::Application.routes.draw do
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
-  # match ':controller(/:action(/:id(.:format)))'
+#  user_registration      POST   /users(.:format)                                       {:action=>"create", :controller=>"devise/registrations"}
+#  new_user_registration  GET    /users/sign_up(.:format)                               {:action=>"new", :controller=>"devise/registrations"}
+#  edit_user_registration GET    /users/edit(.:format)                                  {:action=>"edit", :controller=>"devise/registrations"}
+#  user_registration      PUT    /users(.:format)                                       {:action=>"update", :controller=>"devise/registrations"}
+#  user_registration      DELETE /users(.:format)
+match ':controller(/:action(/:id(.:format)))'
 end

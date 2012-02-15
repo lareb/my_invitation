@@ -1,7 +1,11 @@
 class HomeController < ApplicationController
   layout 'application'
   def index
-    render :text => "Welcome to myinvitation", :layout => true
+    @title = ""
+    if user_signed_in?
+        redirect_to :controller => "portfolio", :action => "index"
+        return
+    end
   end
 
   def edit_profile

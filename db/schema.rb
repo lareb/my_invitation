@@ -25,8 +25,8 @@ ActiveRecord::Schema.define(:version => 20120206172729) do
   end
 
   create_table "invitations", :force => true do |t|
-    t.string   "type"
-    t.boolean  "is_active",  :default => true
+    t.string   "invitations_type"
+    t.boolean  "is_active",        :default => true
     t.datetime "created_at"
     t.datetime "updated_at"
   end

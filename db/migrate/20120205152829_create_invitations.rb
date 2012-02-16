@@ -1,7 +1,7 @@
 class CreateInvitations < ActiveRecord::Migration
   def self.up
     create_table :invitations do |t|
-      t.string :type
+      t.string :invitation_type
       t.boolean :is_active, :default => 1
       t.timestamps
     end

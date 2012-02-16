@@ -5039,3 +5039,317 @@ Rendered sessions/_manager.html.erb (13.0ms)
 Rendered layouts/_footer.html.erb (1.0ms)
 Rendered home/index.html.erb within layouts/application (474.0ms)
 Completed 200 OK in 515ms (Views: 514.0ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at d:/workspace/my_invitation/config/initializers/mail.rb:1)
+  [1m[36mSQL (46.8ms)[0m  [1mdescribe `invitations_users`[0m
+Mysql2::Error: Table 'myinvitations.invitations_users' doesn't exist: describe `invitations_users`
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-16 20:23:29 +0530
+  Processing by HomeController#index as HTML
+Rendered sessions/_sign_up.html.erb (296.4ms)
+Rendered sessions/_login.html.erb (0.0ms)
+Rendered sessions/_manager.html.erb (0.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Rendered home/index.html.erb within layouts/application (327.6ms)
+Completed 200 OK in 359ms (Views: 358.8ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at d:/workspace/my_invitation/config/initializers/mail.rb:1)
+  [1m[36mSQL (5.0ms)[0m  [1mdescribe `invitations_users`[0m
+Mysql2::Error: Table 'myinvitations.invitations_users' doesn't exist: describe `invitations_users`
+  [1m[35mSQL (1.0ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (13.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+  [1m[36mSQL (4.0ms)[0m  [1mdescribe `invitations_users`[0m
+Mysql2::Error: Table 'myinvitations.invitations_users' doesn't exist: describe `invitations_users`
+WARNING: Can't mass-assign protected attributes: type
+  [1m[35mSQL (1.0ms)[0m  BEGIN
+  [1m[36mSQL (5.0ms)[0m  [1mdescribe `invitations`[0m
+  [1m[35mAREL (9.0ms)[0m  INSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:33:59', '2012-02-16 15:33:59')
+  [1m[36mSQL (26.0ms)[0m  [1mCOMMIT[0m
+WARNING: Can't mass-assign protected attributes: type
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mAREL (1.0ms)[0m  [1mINSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:34:00', '2012-02-16 15:34:00')[0m
+  [1m[35mSQL (25.0ms)[0m  COMMIT
+WARNING: Can't mass-assign protected attributes: type
+  [1m[36mSQL (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (1.0ms)[0m  INSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:34:00', '2012-02-16 15:34:00')
+  [1m[36mSQL (25.0ms)[0m  [1mCOMMIT[0m
+WARNING: Can't mass-assign protected attributes: type
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:34:00', '2012-02-16 15:34:00')[0m
+  [1m[35mSQL (26.0ms)[0m  COMMIT
+WARNING: Can't mass-assign protected attributes: type
+  [1m[36mSQL (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (0.0ms)[0m  INSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:34:00', '2012-02-16 15:34:00')
+  [1m[36mSQL (24.0ms)[0m  [1mCOMMIT[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at d:/workspace/my_invitation/config/initializers/mail.rb:1)
+  [1m[36mSQL (4.0ms)[0m  [1mdescribe `invitations_users`[0m
+Mysql2::Error: Table 'myinvitations.invitations_users' doesn't exist: describe `invitations_users`
+  [1m[35mSQL (1.0ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+  [1m[36mSQL (4.0ms)[0m  [1mdescribe `invitations_users`[0m
+Mysql2::Error: Table 'myinvitations.invitations_users' doesn't exist: describe `invitations_users`
+WARNING: Can't mass-assign protected attributes: type
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mSQL (4.0ms)[0m  [1mdescribe `invitations`[0m
+  [1m[35mAREL (0.0ms)[0m  INSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:37:41', '2012-02-16 15:37:41')
+  [1m[36mSQL (74.0ms)[0m  [1mCOMMIT[0m
+WARNING: Can't mass-assign protected attributes: type
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mAREL (1.0ms)[0m  [1mINSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:37:41', '2012-02-16 15:37:41')[0m
+  [1m[35mSQL (25.0ms)[0m  COMMIT
+WARNING: Can't mass-assign protected attributes: type
+  [1m[36mSQL (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (1.0ms)[0m  INSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:37:42', '2012-02-16 15:37:42')
+  [1m[36mSQL (24.0ms)[0m  [1mCOMMIT[0m
+WARNING: Can't mass-assign protected attributes: type
+  [1m[35mSQL (1.0ms)[0m  BEGIN
+  [1m[36mAREL (1.0ms)[0m  [1mINSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:37:42', '2012-02-16 15:37:42')[0m
+  [1m[35mSQL (26.0ms)[0m  COMMIT
+WARNING: Can't mass-assign protected attributes: type
+  [1m[36mSQL (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (0.0ms)[0m  INSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:37:42', '2012-02-16 15:37:42')
+  [1m[36mSQL (24.0ms)[0m  [1mCOMMIT[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at d:/workspace/my_invitation/config/initializers/mail.rb:1)
+  [1m[36mSQL (4.0ms)[0m  [1mdescribe `invitations_users`[0m
+Mysql2::Error: Table 'myinvitations.invitations_users' doesn't exist: describe `invitations_users`
+  [1m[35mSQL (1.0ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+WARNING: Can't mass-assign protected attributes: type
+  [1m[36mSQL (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (5.0ms)[0m  describe `invitations`
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:38:49', '2012-02-16 15:38:49')[0m
+  [1m[35mSQL (70.0ms)[0m  COMMIT
+WARNING: Can't mass-assign protected attributes: type
+  [1m[36mSQL (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (1.0ms)[0m  INSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:38:50', '2012-02-16 15:38:50')
+  [1m[36mSQL (25.0ms)[0m  [1mCOMMIT[0m
+WARNING: Can't mass-assign protected attributes: type
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mAREL (1.0ms)[0m  [1mINSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:38:50', '2012-02-16 15:38:50')[0m
+  [1m[35mSQL (24.0ms)[0m  COMMIT
+WARNING: Can't mass-assign protected attributes: type
+  [1m[36mSQL (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (0.0ms)[0m  INSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:38:50', '2012-02-16 15:38:50')
+  [1m[36mSQL (26.0ms)[0m  [1mCOMMIT[0m
+WARNING: Can't mass-assign protected attributes: type
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:38:50', '2012-02-16 15:38:50')[0m
+  [1m[35mSQL (24.0ms)[0m  COMMIT
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at d:/workspace/my_invitation/config/initializers/mail.rb:1)
+  [1m[36mSQL (4.0ms)[0m  [1mdescribe `invitations_users`[0m
+Mysql2::Error: Table 'myinvitations.invitations_users' doesn't exist: describe `invitations_users`
+  [1m[35mSQL (2.0ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+WARNING: Can't mass-assign protected attributes: type
+  [1m[36mSQL (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (5.0ms)[0m  describe `invitations`
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:40:18', '2012-02-16 15:40:18')[0m
+  [1m[35mSQL (87.0ms)[0m  COMMIT
+WARNING: Can't mass-assign protected attributes: type
+  [1m[36mSQL (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (1.0ms)[0m  INSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:40:18', '2012-02-16 15:40:18')
+  [1m[36mSQL (25.0ms)[0m  [1mCOMMIT[0m
+WARNING: Can't mass-assign protected attributes: type
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mAREL (1.0ms)[0m  [1mINSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:40:18', '2012-02-16 15:40:18')[0m
+  [1m[35mSQL (24.0ms)[0m  COMMIT
+WARNING: Can't mass-assign protected attributes: type
+  [1m[36mSQL (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (0.0ms)[0m  INSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:40:18', '2012-02-16 15:40:18')
+  [1m[36mSQL (25.0ms)[0m  [1mCOMMIT[0m
+WARNING: Can't mass-assign protected attributes: type
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:40:18', '2012-02-16 15:40:18')[0m
+  [1m[35mSQL (26.0ms)[0m  COMMIT
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at d:/workspace/my_invitation/config/initializers/mail.rb:1)
+  [1m[36mSQL (3.0ms)[0m  [1mdescribe `invitations_users`[0m
+Mysql2::Error: Table 'myinvitations.invitations_users' doesn't exist: describe `invitations_users`
+  [1m[35mSQL (1.0ms)[0m  SHOW TABLES
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at d:/workspace/my_invitation/config/initializers/mail.rb:1)
+  [1m[36mSQL (5.0ms)[0m  [1mdescribe `invitations_users`[0m
+Mysql2::Error: Table 'myinvitations.invitations_users' doesn't exist: describe `invitations_users`
+  [1m[35mSQL (2.0ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+WARNING: Can't mass-assign protected attributes: type
+  [1m[36mSQL (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (4.0ms)[0m  describe `invitations`
+  [1m[36mAREL (1.0ms)[0m  [1mINSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:44:12', '2012-02-16 15:44:12')[0m
+  [1m[35mSQL (99.0ms)[0m  COMMIT
+WARNING: Can't mass-assign protected attributes: type
+  [1m[36mSQL (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (1.0ms)[0m  INSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:44:13', '2012-02-16 15:44:13')
+  [1m[36mSQL (23.0ms)[0m  [1mCOMMIT[0m
+WARNING: Can't mass-assign protected attributes: type
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mAREL (1.0ms)[0m  [1mINSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:44:13', '2012-02-16 15:44:13')[0m
+  [1m[35mSQL (26.0ms)[0m  COMMIT
+WARNING: Can't mass-assign protected attributes: type
+  [1m[36mSQL (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (0.0ms)[0m  INSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:44:13', '2012-02-16 15:44:13')
+  [1m[36mSQL (25.0ms)[0m  [1mCOMMIT[0m
+WARNING: Can't mass-assign protected attributes: type
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO `invitations` (`type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:44:13', '2012-02-16 15:44:13')[0m
+  [1m[35mSQL (26.0ms)[0m  COMMIT
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at d:/workspace/my_invitation/config/initializers/mail.rb:1)
+  [1m[36mSQL (5.0ms)[0m  [1mdescribe `invitations_users`[0m
+Mysql2::Error: Table 'myinvitations.invitations_users' doesn't exist: describe `invitations_users`
+  [1m[35mSQL (2.0ms)[0m  SHOW TABLES
+  [1m[36mSQL (2.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+Migrating to CreateUserInvitations (20120206172729)
+  [1m[36mSQL (86.0ms)[0m  [1mDROP TABLE `user_invitations`[0m
+  [1m[35mAREL (49.0ms)[0m  DELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20120206172729'
+  [1m[36mSQL (2.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+  [1m[36mSQL (2.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (5.0ms)[0m  describe `events`
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW KEYS FROM `events`[0m
+  [1m[35mSQL (5.0ms)[0m  describe `invitations`
+  [1m[36mSQL (2.0ms)[0m  [1mSHOW KEYS FROM `invitations`[0m
+  [1m[35mSQL (5.0ms)[0m  describe `users`
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW KEYS FROM `users`[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at d:/workspace/my_invitation/config/initializers/mail.rb:1)
+  [1m[36mSQL (4.0ms)[0m  [1mdescribe `invitations_users`[0m
+Mysql2::Error: Table 'myinvitations.invitations_users' doesn't exist: describe `invitations_users`
+  [1m[35mSQL (2.0ms)[0m  SHOW TABLES
+  [1m[36mSQL (2.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+  [1m[36mSQL (2.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+Migrating to AddFirstTimeLoginInUser (20120206150156)
+  [1m[36mAREL (58.0ms)[0m  [1mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20120206150156'[0m
+  [1m[35mSQL (2.0ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (1.0ms)[0m  SHOW TABLES
+  [1m[36mSQL (4.0ms)[0m  [1mdescribe `events`[0m
+  [1m[35mSQL (1.0ms)[0m  SHOW KEYS FROM `events`
+  [1m[36mSQL (4.0ms)[0m  [1mdescribe `invitations`[0m
+  [1m[35mSQL (1.0ms)[0m  SHOW KEYS FROM `invitations`
+  [1m[36mSQL (5.0ms)[0m  [1mdescribe `users`[0m
+  [1m[35mSQL (1.0ms)[0m  SHOW KEYS FROM `users`
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at d:/workspace/my_invitation/config/initializers/mail.rb:1)
+  [1m[36mSQL (4.0ms)[0m  [1mdescribe `invitations_users`[0m
+Mysql2::Error: Table 'myinvitations.invitations_users' doesn't exist: describe `invitations_users`
+  [1m[35mSQL (1.0ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+Migrating to CreateEvents (20120205153649)
+  [1m[36mSQL (77.0ms)[0m  [1mDROP TABLE `events`[0m
+  [1m[35mAREL (33.0ms)[0m  DELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20120205153649'
+Migrating to CreateInvitations (20120205152829)
+  [1m[36mSQL (111.0ms)[0m  [1mDROP TABLE `invitations`[0m
+  [1m[35mAREL (32.0ms)[0m  DELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20120205152829'
+Migrating to AddUserInfo (20120128180127)
+  [1m[36mAREL (41.0ms)[0m  [1mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20120128180127'[0m
+Migrating to DeviseCreateUsers (20111122170848)
+  [1m[35mSQL (31.0ms)[0m  DROP TABLE `users`
+  [1m[36mAREL (35.0ms)[0m  [1mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20111122170848'[0m
+  [1m[35mSQL (1.0ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (1.0ms)[0m  SHOW TABLES
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at d:/workspace/my_invitation/config/initializers/mail.rb:1)
+  [1m[36mSQL (4.0ms)[0m  [1mdescribe `invitations_users`[0m
+Mysql2::Error: Table 'myinvitations.invitations_users' doesn't exist: describe `invitations_users`
+  [1m[35mSQL (2.0ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+Migrating to DeviseCreateUsers (20111122170848)
+  [1m[36mSQL (274.0ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(128) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35mSQL (2.0ms)[0m  SHOW KEYS FROM `users`
+  [1m[36mSQL (210.0ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)[0m
+  [1m[35mSQL (1.0ms)[0m  SHOW KEYS FROM `users`
+  [1m[36mSQL (114.0ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35mSQL (42.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20111122170848')
+Migrating to AddUserInfo (20120128180127)
+  [1m[36mSQL (217.0ms)[0m  [1mALTER TABLE `users` ADD `first_name` varchar(255)[0m
+  [1m[35mSQL (193.0ms)[0m  ALTER TABLE `users` ADD `last_name` varchar(255)
+  [1m[36mSQL (199.0ms)[0m  [1mALTER TABLE `users` ADD `sex` tinyint(1) DEFAULT 1[0m
+  [1m[35mSQL (194.0ms)[0m  ALTER TABLE `users` ADD `active` tinyint(1) DEFAULT 1
+  [1m[36mSQL (194.0ms)[0m  [1mALTER TABLE `users` ADD `dob` date[0m
+  [1m[35mSQL (34.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20120128180127')
+Migrating to CreateInvitations (20120205152829)
+  [1m[36mSQL (94.0ms)[0m  [1mCREATE TABLE `invitations` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `invitations_type` varchar(255), `is_active` tinyint(1) DEFAULT 1, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35mSQL (34.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20120205152829')
+Migrating to CreateEvents (20120205153649)
+  [1m[36mSQL (77.0ms)[0m  [1mCREATE TABLE `events` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `subtitle` varchar(512), `venue` text, `start_date` datetime, `end_date` datetime, `sub_event_id` int(11), `host_names` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35mSQL (34.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20120205153649')
+Migrating to AddFirstTimeLoginInUser (20120206150156)
+  [1m[36mSQL (205.0ms)[0m  [1mALTER TABLE `users` ADD `first_time_login` tinyint(1)[0m
+  [1m[35mSQL (33.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20120206150156')
+Migrating to CreateUserInvitations (20120206172729)
+  [1m[36mSQL (92.0ms)[0m  [1mCREATE TABLE `user_invitations` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `invitation_id` int(11), `event_id` int(11), `contact_person_name` varchar(255), `contact_person_number` varchar(255), `contact_person_email` varchar(255), `contact_person_address` text) ENGINE=InnoDB[0m
+  [1m[35mSQL (30.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20120206172729')
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (5.0ms)[0m  describe `events`
+  [1m[36mSQL (0.0ms)[0m  [1mSHOW KEYS FROM `events`[0m
+  [1m[35mSQL (4.0ms)[0m  describe `invitations`
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW KEYS FROM `invitations`[0m
+  [1m[35mSQL (4.0ms)[0m  describe `user_invitations`
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW KEYS FROM `user_invitations`[0m
+  [1m[35mSQL (5.0ms)[0m  describe `users`
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW KEYS FROM `users`[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at d:/workspace/my_invitation/config/initializers/mail.rb:1)
+  [1m[36mSQL (5.0ms)[0m  [1mdescribe `invitations_users`[0m
+Mysql2::Error: Table 'myinvitations.invitations_users' doesn't exist: describe `invitations_users`
+  [1m[35mSQL (2.0ms)[0m  SHOW TABLES
+  [1m[36mSQL (2.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+WARNING: Can't mass-assign protected attributes: type
+  [1m[36mSQL (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (4.0ms)[0m  describe `invitations`
+  [1m[36mAREL (1.0ms)[0m  [1mINSERT INTO `invitations` (`invitations_type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:50:01', '2012-02-16 15:50:01')[0m
+  [1m[35mSQL (47.0ms)[0m  COMMIT
+WARNING: Can't mass-assign protected attributes: type
+  [1m[36mSQL (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (1.0ms)[0m  INSERT INTO `invitations` (`invitations_type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:50:02', '2012-02-16 15:50:02')
+  [1m[36mSQL (36.0ms)[0m  [1mCOMMIT[0m
+WARNING: Can't mass-assign protected attributes: type
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mAREL (1.0ms)[0m  [1mINSERT INTO `invitations` (`invitations_type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:50:02', '2012-02-16 15:50:02')[0m
+  [1m[35mSQL (24.0ms)[0m  COMMIT
+WARNING: Can't mass-assign protected attributes: type
+  [1m[36mSQL (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (0.0ms)[0m  INSERT INTO `invitations` (`invitations_type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:50:02', '2012-02-16 15:50:02')
+  [1m[36mSQL (26.0ms)[0m  [1mCOMMIT[0m
+WARNING: Can't mass-assign protected attributes: type
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO `invitations` (`invitations_type`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 1, '2012-02-16 15:50:02', '2012-02-16 15:50:02')[0m
+  [1m[35mSQL (23.0ms)[0m  COMMIT
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at d:/workspace/my_invitation/config/initializers/mail.rb:1)
+  [1m[36mSQL (5.0ms)[0m  [1mdescribe `invitations_users`[0m
+Mysql2::Error: Table 'myinvitations.invitations_users' doesn't exist: describe `invitations_users`
+  [1m[35mSQL (1.0ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (1.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations`
+  [1m[36mSQL (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (4.0ms)[0m  describe `invitations`
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO `invitations` (`invitations_type`, `is_active`, `created_at`, `updated_at`) VALUES ('Wedding', 1, '2012-02-16 15:51:28', '2012-02-16 15:51:28')[0m
+  [1m[35mSQL (68.0ms)[0m  COMMIT
+  [1m[36mSQL (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (1.0ms)[0m  INSERT INTO `invitations` (`invitations_type`, `is_active`, `created_at`, `updated_at`) VALUES ('Engagement', 1, '2012-02-16 15:51:29', '2012-02-16 15:51:29')
+  [1m[36mSQL (23.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mAREL (1.0ms)[0m  [1mINSERT INTO `invitations` (`invitations_type`, `is_active`, `created_at`, `updated_at`) VALUES ('Birthday', 1, '2012-02-16 15:51:29', '2012-02-16 15:51:29')[0m
+  [1m[35mSQL (27.0ms)[0m  COMMIT
+  [1m[36mSQL (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (0.0ms)[0m  INSERT INTO `invitations` (`invitations_type`, `is_active`, `created_at`, `updated_at`) VALUES ('Anniversary', 1, '2012-02-16 15:51:29', '2012-02-16 15:51:29')
+  [1m[36mSQL (23.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.0ms)[0m  BEGIN
+  [1m[36mAREL (0.0ms)[0m  [1mINSERT INTO `invitations` (`invitations_type`, `is_active`, `created_at`, `updated_at`) VALUES ('Inauguration', 1, '2012-02-16 15:51:29', '2012-02-16 15:51:29')[0m
+  [1m[35mSQL (30.0ms)[0m  COMMIT
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at d:/workspace/my_invitation/config/initializers/mail.rb:1)
+  [1m[36mSQL (7.0ms)[0m  [1mdescribe `invitations_users`[0m
+Mysql2::Error: Table 'myinvitations.invitations_users' doesn't exist: describe `invitations_users`

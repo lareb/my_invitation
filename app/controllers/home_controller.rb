@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
   layout 'application'
   def index
-    @title = ""
+    @title = "Inviteez"
     if user_signed_in?
         redirect_to :controller => "portfolio", :action => "index"
         return

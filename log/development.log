@@ -5353,3 +5353,13 @@ Mysql2::Error: Table 'myinvitations.invitations_users' doesn't exist: describe `
 DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at d:/workspace/my_invitation/config/initializers/mail.rb:1)
   [1m[36mSQL (7.0ms)[0m  [1mdescribe `invitations_users`[0m
 Mysql2::Error: Table 'myinvitations.invitations_users' doesn't exist: describe `invitations_users`
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-17 00:33:23 +0530
+  Processing by HomeController#index as HTML
+Rendered sessions/_sign_up.html.erb (140.0ms)
+Rendered sessions/_login.html.erb (10.0ms)
+Rendered sessions/_manager.html.erb (10.0ms)
+Rendered layouts/_footer.html.erb (0.0ms)
+Rendered home/index.html.erb within layouts/application (180.0ms)
+Completed 200 OK in 190ms (Views: 190.0ms | ActiveRecord: 0.0ms)
